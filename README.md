@@ -14,10 +14,10 @@ Test your download and upload speed using fast.com
 ```
 or
 ```
-[root@test ~]# docker run -it --rm mratrend/speedtest-fast:latest fast 
+[root@test ~]# docker run -it --rm mratrend/speedtest-fast:latest fast -u
 
 
-     610 Kbps ↓
+     6.4 Mbps ↓ / 13 Mbps ↑
 
 
 ```
